@@ -380,12 +380,11 @@ nav {
   padding-right: 24px;
   padding-bottom: 20px;
   padding-top: 20px;
+  width: 370px;
 }
 
 .galery-card-item {
   margin-bottom: 30px;
-
-  margin-right: -10px;
 }
 .galery-card-item:not(:nth-child(3n)) {
   margin-right: 30px;
