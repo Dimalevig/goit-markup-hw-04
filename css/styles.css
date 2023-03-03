@@ -373,21 +373,18 @@ nav {
 }
 
 .galery-card-title {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-top: none;
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 20px;
-}
-
-.galery-img {
-  margin-bottom: 20px;
-  width: 370px;
+  padding-top: 20px;
 }
 
 .galery-card-item {
   margin-bottom: 30px;
 
-  background: #ffffff;
-  border: 1px solid #eeeeee;
   margin-right: -10px;
 }
 .galery-card-item:not(:nth-child(3n)) {
