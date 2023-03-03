@@ -81,7 +81,7 @@ body {
 }
 .header {
   display: flex;
-  border-bottom: solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 nav {
   display: flex;
@@ -227,6 +227,7 @@ nav {
   color: var(--secondary-color);
 }
 .name {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.33;
@@ -235,13 +236,20 @@ nav {
   color: var(--secondary-color);
 }
 .work {
+  margin-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.33;
   text-align: center;
   letter-spacing: 0.03em;
 }
+.list-address:not(:last-child) {
+  padding-bottom: 12px;
+}
+
 .address {
+  padding-bottom: 60px;
+
   padding-top: 28px;
   font-style: normal;
   font-weight: 400;
@@ -263,7 +271,18 @@ nav {
   background-color: var(--background-color);
 }
 /* <=======Portfolio=======> */
+.galery:not(:last-child) {
+  margin-right: 12px;
+}
+.galery {
+  margin-bottom: 50px;
+}
 .button-portfolio-model {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+
   border: none;
   display: flex;
   font-weight: 500;
@@ -288,6 +307,8 @@ nav {
 }
 .button-portfolio {
   display: flex;
+  margin-top: 94px;
+  justify-content: center;
 }
 .portfolio-cards-title {
   font-weight: 700;
@@ -321,12 +342,16 @@ nav {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100%-90px / 4));
+  flex-basis: calc((100%-90)/4);
+}
+.team-block-item:not(:last-child) {
+  margin-right: 30px;
 }
 .name-and-work {
   border: 1px solid;
   border-color: #f5f4fa;
   border-top: none;
+  flex-basis: calc((100%-90)/4);
 }
 .footer-item {
   padding-top: 60px;
@@ -336,4 +361,35 @@ nav {
 }
 .team-background {
   background-color: #f5f4fa;
+}
+.image-team {
+  margin-bottom: 30px;
+}
+.galery-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+}
+
+.galery-card-title {
+margin-left: 24px;
+margin-right: 24px;
+margin-bottom: 20px;
+}
+
+.galery-img {
+  margin-bottom: 20px;
+  width: 370px;
+}
+
+.galery-card-item {
+  margin-bottom: 30px;
+
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  margin-right: -10px;
+}
+.galery-card-item:not(:nth-child(3n)) {
+  margin-right: 30px;
 }
