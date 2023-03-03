@@ -342,7 +342,7 @@ nav {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100%-90)/4);
+  flex-basis: calc((100%-90) / 4);
 }
 .team-block-item:not(:last-child) {
   margin-right: 30px;
@@ -351,7 +351,7 @@ nav {
   border: 1px solid;
   border-color: #f5f4fa;
   border-top: none;
-  flex-basis: calc((100%-90)/4);
+  flex-basis: calc((100%-90) / 4);
 }
 .footer-item {
   padding-top: 60px;
@@ -373,9 +373,9 @@ nav {
 }
 
 .galery-card-title {
-margin-left: 24px;
-margin-right: 24px;
-margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 20px;
 }
 
 .galery-img {
@@ -386,8 +386,8 @@ margin-bottom: 20px;
 .galery-card-item {
   margin-bottom: 30px;
 
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
   margin-right: -10px;
 }
 .galery-card-item:not(:nth-child(3n)) {
