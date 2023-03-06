@@ -57,9 +57,9 @@ body {
 } */
 /* <=======logo=======> */
 .logo-link {
-  margin-top: 24px;
+  display: flex;
+  align-items: center;
   margin-right: 94px;
-  margin-bottom: 25px;
 
   font-family: "Raleway";
   font-weight: 700;
@@ -92,8 +92,10 @@ nav {
   margin-left: auto;
 }
 .contact-item {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contact-item:not(:last-child) {
   margin-right: 40px;
@@ -104,6 +106,10 @@ nav {
 }
 .nav-menu:not(:last-child) {
   margin-right: 50px;
+}
+.nav-menu {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .nav-link {
   font-family: "Roboto";
@@ -137,6 +143,7 @@ nav {
   margin-left: 5px;
   margin-right: 5px;
   padding-top: 200px;
+  padding-bottom: 200px;
   height: 600px;
   background-color: var(--background-color);
 }
@@ -191,17 +198,17 @@ nav {
   margin-right: auto;
 }
 .horizontal-block-item {
-  flex-basis: calc((100%-90px) * 4);
+  width: 270px;
 }
-
-.sub-hero-title:not(:last-child) {
+.horizontal-block-item:not(:last-child) {
   margin-right: 30px;
 }
 .sub-hero {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .sub-hero-title {
-  margin-top: 94px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.33;
@@ -216,8 +223,11 @@ nav {
   line-height: 1.33;
   letter-spacing: 0.03em;
 }
-.employment-and-team {
+.employment {
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+.employment-and-team {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
