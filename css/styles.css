@@ -392,7 +392,7 @@ body {
 .galery-card-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
-.galery-card-item:not(:nth-child(n + 6)) {
+.galery-card-item:not(:nth-child(n + 7)) {
   margin-bottom: 30px;
 }
 .galery-section {
