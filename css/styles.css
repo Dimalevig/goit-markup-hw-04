@@ -286,6 +286,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer {
+  display: block;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-color);
@@ -411,13 +412,128 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .social-list {
+  padding: 0px;
+  margin-top: 16px;
   display: flex;
   justify-content: center;
 }
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .social-list-link {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
+  border-radius: 50%;
+}
+
+.social-list-icon {
+  fill: #afb1b8;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--accent-color);
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: #ffffff;
+}
+
+.client-object {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+  margin-top: 94px;
+}
+
+.client {
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.client-list-link:hover .client,
+.client-list-link:focus .client {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.client-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.client-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-social-list {
+  padding: 0px;
+  margin-top: 16px;
+  display: flex;
+}
+
+.footer-social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);;
+}
+
+.footer-social-list-icon {
+  fill: var(--second-accent-color);
+}
+
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+  background-color: var(--accent-color);
+}
+.footer-social-list-link:hover .footer-social-list-icon,
+.footer-social-list-link:focus .footer-social-list-icon {
+  fill: var(--second-accent-color);
+}
+
+.footer-item {
+  display: flex;
+  align-items: baseline;
+  gap: 70px;
+}
+
+.footer-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
 }
