@@ -92,9 +92,13 @@ body {
 .contact-item {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
-.contact-link {
+.contact {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
