@@ -411,3 +411,15 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.social-list-link {
+  width: 44px;
+  height: 44px;
+  background-color: #2196f3;
+  border-radius: 50%;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+}
