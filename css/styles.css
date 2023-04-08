@@ -224,6 +224,7 @@ body {
   padding-bottom: 94px;
 }
 .sub-hero-title {
+  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -232,6 +233,11 @@ body {
   text-transform: uppercase;
   color: var(--secondary-color);
 }
+
+.sub-hero-icon {
+  background-color: #F5F4FA;
+}
+
 .sub-title,
 .sub-portfolio-title {
   font-weight: 400;
