@@ -497,10 +497,14 @@ body {
   border-radius: 4px;
 }
 
+.client-list-link:focus,
+.client-list-link:hover {
+  border: 1px solid var(--accent-color);
+}
+
 .client-list-link:hover .client,
 .client-list-link:focus .client {
   fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
 }
 
 .client-title {
